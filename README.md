@@ -1,1 +1,1 @@
-# WebLabs
+# web-technologies-course
