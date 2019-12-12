@@ -4,26 +4,47 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+    <link rel="stylesheet" media="(max-width:800px)" href="../css/max_800.css"/>
+    <link rel="stylesheet" media="(min-width:801px)" href="../css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style2.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style3.css" media="print"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
     <title>Ćwiczenie 3</title>
 </head>
 <body>
-<div>
-    <b>Linki do innych ćwiczeń</b>
+<div id="menu">
     <ul>
-        <li><a href="./cw1.xhtml">cw1.xhtml</a></li>
-        <li><a href="./cw2.xhtml">cw2.xhtml</a></li>
-        <li><a href="./cw3.xhtml">cw3.xhtml</a></li>
-        <li><a href="./cw4.xhtml">cw4.xhtml</a></li>
-    </ul>
-    <b>Treść</b>
-    <ul>
-        <li><a href="#tabela">Tabela</a></li>
-        <li><a href="#lista">Lista</a></li>
+        <li>
+            Linki do innych ćwiczeń
+            <ul>
+                <li><a href="./cw1.xhtml">cw1.xhtml</a></li>
+                <li><a href="./cw2.xhtml">cw2.xhtml</a></li>
+                <li><a href="./cw3.xhtml">cw3.xhtml</a></li>
+                <li><a href="./cw4.xhtml">cw4.xhtml</a></li>
+            </ul>
+        </li>
+        <li>
+            Treść
+            <ul>
+                <li><a href="#tabela">Tabela</a></li>
+                <li><a href="#lista">Lista</a></li>
+            </ul>
+        </li>
     </ul>
 </div>
-<div>
+<p><br/></p>
+
+<div id="Title"><h1 align="center">Ćwiczenie 3</h1></div>
+<div id="main">
     <h2 id="tabela">Tabela</h2>
     <table border="2" cellspacing="12" cellpadding="12">
+        <colgroup>
+            <col class="kolumna1"></col>
+            <col class="kolumna2"></col>
+            <col class="kolumna3"></col>
+        </colgroup>
         <thead>
         <tr>
             <th>Kolumna 1</th>
@@ -86,14 +107,14 @@
         </li>
         <li>Element
             <ol>
-                <li>Numeracja drugiego poziomu</li>
-                <li>Numeracja druiego poziomu
+                <li>drugi poziom</li>
+                <li>drugi poziom
                     <ol>
-                        <li>Trzeci</li>
-                        <li>Trzeci</li>
+                        <li>trzeci poziom</li>
+                        <li>trzeci poziom</li>
                     </ol>
                 </li>
-                <li>Numeracja drugiego poziomu</li>
+                <li>drugi poziom</li>
             </ol>
         </li>
         <li>...</li>

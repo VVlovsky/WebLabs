@@ -1,0 +1,117 @@
+
+#Title {
+    font-size: 30px;
+    background-color: coral;
+    width: 100%;
+    color: #162433;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: #f3fffd;
+
+}
+
+#menu {
+    width: 100%;
+    height: 150px;
+    float: left;
+    text-align: center;
+    background-color: coral;
+
+
+}
+
+#menu ul li {
+    background-color: #f3fffd;
+    border-color: darkslategray;
+    border-collapse: separate;
+    border-style: solid;
+    text-align: center;
+    alignment: left;
+    color: #293339;
+    vertical-align: middle;
+    display: inline-table;
+
+}
+
+
+a:hover {
+    cursor: default;
+    color: #ff8400;
+}
+
+#picture {
+    float: left;
+
+}
+
+#picture2 {
+    float: right;
+}
+
+body {
+    background-color: #293339;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #2f313f;
+    letter-spacing: 1px;
+}
+
+
+h2 {
+    color: lightcoral;
+}
+
+
+h3 {
+}
+
+
+p {
+    text-indent: 20px;
+}
+
+p:first-letter {
+    color: coral;
+    font-size: large;
+}
+
+table {
+    color: #ffe8b9;
+    background-color: #29332e;
+    border: 3px solid #b93247;
+}
+
+.kolumna1 {
+    background-color: #005f5f;
+}
+
+.kolumna2 {
+    background-color: #5e1e1f;
+}
+
+thead {
+    background-color: coral;
+    text-transform: uppercase;
+}
+
+tbody {
+    font-style: italic;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ol ol {
+    list-style-type: lower-roman;
+}
+
+ol ol ol {
+    list-style-type: lower-greek;
+}

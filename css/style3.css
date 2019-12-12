@@ -1,0 +1,119 @@
+
+#Title {
+    font-size: 30px;
+    background-color: #ffffff;
+    width: 100%;
+    white-space: nowrap;
+    color: #000000;
+}
+
+#main {
+    max-width: 960px;
+    height: 100%;
+    background-color: #ffffff;
+    margin-left: 240px;
+    background-clip: content-box;
+    position: relative;
+}
+
+#menu {
+    width: 220px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    background-color: #ffffff;
+    margin-right: 2%;
+    position: fixed;
+    display: none;
+}
+
+#menu ul li {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-collapse: separate;
+    border-style: solid;
+    text-align: center;
+    alignment: left;
+    color: #000000;
+
+}
+
+
+a:hover {
+    cursor: default;
+    color: #ff8400;
+}
+
+#picture {
+    float: left;
+    clear: none;
+}
+
+#picture2 {
+    float: right;
+    clear: none;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+
+h2 {
+    color: #000000;
+}
+
+
+h3 {
+}
+
+
+p {
+    text-indent: 20px;
+}
+
+p:first-letter {
+    color: #000000;
+    font-size: large;
+}
+
+table {
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+}
+
+.kolumna1 {
+    background-color: #ffffff;
+}
+
+.kolumna2 {
+    background-color: #ffffff;
+}
+
+thead {
+    background-color: #ffffff;
+    text-transform: uppercase;
+}
+
+tbody {
+    font-style: italic;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ol ol {
+    list-style-type: lower-roman;
+}
+
+ol ol ol {
+    list-style-type: lower-greek;
+}
