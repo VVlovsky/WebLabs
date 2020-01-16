@@ -8,7 +8,7 @@
 }
 
 #main {
-    max-width: 960px;
+    max-width: 1280px;
     height: 100%;
     background-color: #f3fffd;
     margin-left: 240px;
@@ -54,7 +54,7 @@ a:hover {
 body {
     margin-top: 50px;
     background-color: #293339;
-    max-width: 960px;
+    max-width: 1280px;
     height: 100%;
     font-family: 'Roboto', sans-serif;
 
@@ -226,7 +226,7 @@ ul > li ul {
     display: none;
     left: 80px;
     top: -2px;
-    width: 800px;
+    width: 1000px;
     text-align: left;
 
 

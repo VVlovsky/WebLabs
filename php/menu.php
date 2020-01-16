@@ -12,6 +12,9 @@
                 <li class="menu_2">
                     <a class="menu_2" href="wpis.php">Nowy Wpis</a>
                 </li>
+                <li class="menu_2">
+                    <a class="menu_2" href="chat.php">Chat</a>
+                </li>
             </ul>
         </li>
 

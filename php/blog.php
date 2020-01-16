@@ -1,7 +1,6 @@
 <?php
 
 $list = false;
-
 $info = NULL;
 
 function blogPath($blog_name)

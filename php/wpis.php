@@ -103,7 +103,7 @@ function uploadF($blog_name, $article_name)
 {
     $blog_path = blogPath($blog_name);
 
-    for ($i = 1; $i <= 3; $i++) {
+    for ($i = 1; $i <= intval($_POST['file_count']); $i++) {
         if (empty($_FILES["file${i}"]['name']) || $_FILES["file${i}"]['error']) {
             continue;
         }
@@ -129,6 +129,7 @@ function uploadF($blog_name, $article_name)
 </head>
 <body>
 <?php include 'menu.php'; ?>
+
 <h1>Nowy Wpis</h1>
 <?php if (!is_null($info)): ?>
 
@@ -152,19 +153,21 @@ function uploadF($blog_name, $article_name)
     <label for="time">Czas (GG:MM):</label>
     <input type="text" id="time" name="time" value="<?php echo $current_time; ?>"/>
 
-    <label for="file1">Załącznik 1:</label>
-    <input type="file" name="file1"/>
+    <div id="files" class="form__files">
+        <div class="form__group">
+            <label for="file1">Załącznik 1:</label>
+            <input type="file" class="file" id="file1" name="file1" />
+        </div>
 
-    <label for="file2">Załącznik 2:</label>
-    <input type="file" name="file2"/>
-
-    <label for="file3">Załącznik 3:</label>
-    <input type="file" name="file3"/>
-
+        <input id="file-count" type="hidden" name="file_count" value="1">
+    </div>
 
     <br><br><br>
     <input type="reset" value="Wyczyść formularz"/>
     <input type="submit" value="Dodaj"/>
+
+    <script src="../js/date.js"></script>
+    <script src="../js/upload.js"></script>
 
 </form>
 </body>
